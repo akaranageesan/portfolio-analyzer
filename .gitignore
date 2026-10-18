@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+results_stdout.txt
+data/dashboard/
+
+# Personal notes (kept locally, not published)
+INTERVIEW_PREP.md
+resume_bullets.tex

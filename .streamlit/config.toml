@@ -1,0 +1,7 @@
+[theme]
+base = "light"
+backgroundColor = "#fcfcfb"
+primaryColor = "#2a78d6"
+
+[server]
+headless = true   # skip the first-run email prompt

@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run analysis",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/bin/python main.py",
+      "options": { "cwd": "${workspaceFolder}" },
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run dashboard",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/bin/streamlit run app.py",
+      "options": { "cwd": "${workspaceFolder}" },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Open notebook in JupyterLab",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/bin/jupyter lab portfolio_analyzer.ipynb",
+      "options": { "cwd": "${workspaceFolder}" },
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}

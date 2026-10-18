@@ -1,0 +1,9 @@
+pandas==2.3.3
+numpy==2.0.2
+yfinance==1.2.0
+matplotlib==3.9.4
+scipy==1.13.1
+streamlit==1.50.0
+jupyterlab==4.5.11
+ipykernel==6.31.0
+nbconvert==7.17.2

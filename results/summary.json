@@ -1,0 +1,176 @@
+{
+  "data": {
+    "start": "2021-10-18",
+    "end": "2026-10-16",
+    "trading_days": 1282,
+    "risk_free_avg": 0.03136366559485529
+  },
+  "portfolio": {
+    "RY.TO": 0.2,
+    "TD.TO": 0.15,
+    "SHOP.TO": 0.15,
+    "ENB.TO": 0.15,
+    "AAPL": 0.15,
+    "MSFT": 0.1,
+    "XIU.TO": 0.1
+  },
+  "core": {
+    "Portfolio": {
+      "Total return": 1.1500753846175331,
+      "Annualized return": 0.16566231761765882,
+      "Annualized volatility": 0.15058260912717908,
+      "Sharpe ratio": 0.8712116337280522,
+      "Max drawdown": -0.21584747386547454,
+      "Max drawdown peak": "2021-11-25",
+      "Max drawdown trough": "2022-10-12",
+      "Beta": 0.997204104944979,
+      "Ending value": 21500.753846175332
+    },
+    "XIU.TO": {
+      "Total return": 0.9601167207756356,
+      "Annualized return": 0.1442699572696271,
+      "Annualized volatility": 0.1281952668066707,
+      "Sharpe ratio": 0.8570311909896495,
+      "Max drawdown": -0.16360119515768468,
+      "Max drawdown peak": "2022-04-04",
+      "Max drawdown trough": "2022-10-12",
+      "Beta": 1.0,
+      "Ending value": 19601.167207756356
+    }
+  },
+  "correlation": {
+    "RY.TO": {
+      "RY.TO": 1.0,
+      "TD.TO": 0.5682,
+      "SHOP.TO": 0.308,
+      "ENB.TO": 0.3511,
+      "AAPL": 0.3075,
+      "MSFT": 0.2374,
+      "XIU.TO": 0.7198
+    },
+    "TD.TO": {
+      "RY.TO": 0.5682,
+      "TD.TO": 1.0,
+      "SHOP.TO": 0.2302,
+      "ENB.TO": 0.3104,
+      "AAPL": 0.2479,
+      "MSFT": 0.1878,
+      "XIU.TO": 0.614
+    },
+    "SHOP.TO": {
+      "RY.TO": 0.308,
+      "TD.TO": 0.2302,
+      "SHOP.TO": 1.0,
+      "ENB.TO": 0.0308,
+      "AAPL": 0.4162,
+      "MSFT": 0.4153,
+      "XIU.TO": 0.543
+    },
+    "ENB.TO": {
+      "RY.TO": 0.3511,
+      "TD.TO": 0.3104,
+      "SHOP.TO": 0.0308,
+      "ENB.TO": 1.0,
+      "AAPL": 0.1277,
+      "MSFT": 0.0463,
+      "XIU.TO": 0.4839
+    },
+    "AAPL": {
+      "RY.TO": 0.3075,
+      "TD.TO": 0.2479,
+      "SHOP.TO": 0.4162,
+      "ENB.TO": 0.1277,
+      "AAPL": 1.0,
+      "MSFT": 0.5454,
+      "XIU.TO": 0.4689
+    },
+    "MSFT": {
+      "RY.TO": 0.2374,
+      "TD.TO": 0.1878,
+      "SHOP.TO": 0.4153,
+      "ENB.TO": 0.0463,
+      "AAPL": 0.5454,
+      "MSFT": 1.0,
+      "XIU.TO": 0.4016
+    },
+    "XIU.TO": {
+      "RY.TO": 0.7198,
+      "TD.TO": 0.614,
+      "SHOP.TO": 0.543,
+      "ENB.TO": 0.4839,
+      "AAPL": 0.4689,
+      "MSFT": 0.4016,
+      "XIU.TO": 1.0
+    }
+  },
+  "rebalancing": {
+    "Buy-and-hold": {
+      "Total return": 1.1500753846175331,
+      "Annualized return": 0.16566231761765882,
+      "Annualized volatility": 0.15058260912717908,
+      "Sharpe ratio": 0.8712116337280522,
+      "Max drawdown": -0.21584747386547454,
+      "Max drawdown peak": "2021-11-25",
+      "Max drawdown trough": "2022-10-12",
+      "Beta": 0.997204104944979,
+      "Ending value": 21500.753846175332
+    },
+    "Rebalanced": {
+      "Total return": 1.3702036751023243,
+      "Annualized return": 0.18863796371639618,
+      "Annualized volatility": 0.17647871678572935,
+      "Sharpe ratio": 0.8760460323250919,
+      "Max drawdown": -0.2744027880576845,
+      "Max drawdown peak": "2021-11-25",
+      "Max drawdown trough": "2022-10-11",
+      "Beta": 1.1255538735449246,
+      "Ending value": 23702.036751023243
+    }
+  },
+  "frontier": {
+    "points": {
+      "Your portfolio": {
+        "return": 0.1929220050794879,
+        "volatility": 0.1783027828848095,
+        "sharpe": 0.9060898370218122
+      },
+      "Max Sharpe": {
+        "return": 0.19077384716842208,
+        "volatility": 0.13102916578820872,
+        "sharpe": 1.216600751555056
+      },
+      "Min volatility": {
+        "return": 0.15209516124078415,
+        "volatility": 0.11711952910951572,
+        "sharpe": 1.0308400022086468
+      }
+    },
+    "max_sharpe_weights": {
+      "RY.TO": 0.4863,
+      "TD.TO": 0.2158,
+      "SHOP.TO": 0.0,
+      "ENB.TO": 0.1253,
+      "AAPL": 0.1355,
+      "MSFT": 0.0372,
+      "XIU.TO": 0.0
+    },
+    "min_volatility_weights": {
+      "RY.TO": 0.1614,
+      "TD.TO": 0.0984,
+      "SHOP.TO": 0.0,
+      "ENB.TO": 0.2978,
+      "AAPL": 0.0,
+      "MSFT": 0.0625,
+      "XIU.TO": 0.3799
+    }
+  },
+  "monte_carlo": {
+    "5th percentile": 8859.759391701506,
+    "25th percentile": 10592.196414748172,
+    "Median": 11997.037560384162,
+    "75th percentile": 13501.29315867915,
+    "95th percentile": 15953.10956898571,
+    "Probability of loss": 0.1583,
+    "95% 1-year VaR": 1140.2406082984944
+  }
+}
